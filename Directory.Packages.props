@@ -52,7 +52,7 @@
       <!-- Version together with runtime -->
       <PackageVersion Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="8.0.0" />
       <PackageVersion Include="Microsoft.Extensions.Options" Version="8.0.2" />
-      <PackageVersion Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
+      <PackageVersion Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.2" />
       <!-- Xabaril packages -->
       <PackageVersion Include="AspNetCore.HealthChecks.Uris" Version="8.0.1" />
       <!-- AI -->
@@ -97,5 +97,7 @@
         <PackageVersion Include="MassTransit.EntityFrameworkCore" Version="8.2.5"/>
         <PackageVersion Include="MassTransit.RabbitMQ" Version="8.2.5"/>
         <PackageVersion Include="Microsoft.EntityFrameworkCore.Design" Version="$(EfVersion)" />
+      <PackageVersion Include="Microsoft.Extensions.Http.Polly" Version="8.0.10"/>
+      <PackageVersion Include="MongoDB.Entities" Version="23.1.1"/>
     </ItemGroup>
 </Project>
