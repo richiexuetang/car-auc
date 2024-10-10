@@ -1,4 +1,4 @@
-namespace Contracts.Contracts.EventBus.Messages;
+namespace CarAuc.BuildingBlocks.Contracts.EventBus.Messages;
 
 public class AuctionUpdated
 {
