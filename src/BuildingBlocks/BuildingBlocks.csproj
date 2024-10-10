@@ -8,6 +8,7 @@
     </PropertyGroup>
     
   <ItemGroup>
+    <PackageReference Include="Ardalis.GuardClauses"/>
     <PackageReference Include="Asp.Versioning.Abstractions"/>
     <PackageReference Include="Asp.Versioning.Http"/>
     <PackageReference Include="Asp.Versioning.Mvc"/>
@@ -15,10 +16,20 @@
     <PackageReference Include="Humanizer"/>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.ApiExplorer"/>
     <PackageReference Include="Newtonsoft.Json" />
-    <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" />
     <PackageReference Include="Swashbuckle.AspNetCore" />
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerGen" />
     <PackageReference Include="Swashbuckle.AspNetCore.SwaggerUI"  />
     <PackageReference Include="Unchase.Swashbuckle.AspNetCore.Extensions" />
+    <PackageReference Include="MassTransit" />
+    <PackageReference Include="MassTransit.RabbitMQ" />
+    <PackageReference Include="MediatR" />
+    <PackageReference Include="Google.Protobuf"/>
+    <PackageReference Include="Sieve"/>
+    <PackageReference Include="Polly"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore"/>
+  </ItemGroup>
+    
+  <ItemGroup>
+    <Folder Include="PersistMessageProcessor\Data\" />
   </ItemGroup>
 </Project>
